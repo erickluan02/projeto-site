@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Salão de Beleza</title>
+
+</head>
+
+<body class="fundo">
+    <div id="interface">
+        <header>
+            <img src="img/logosalao.png" alt="logo do salao">
+            <h1 id="titulo">Stylu’s hair</h1>
+        </header>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <p>Limpeza de pele.</p>
+        <p>Hidratação facial.</p>
+        <p>Esfoliação.</p>
+        <p>Drenagem linfática.</p>
+        <p>Maquiagem.</p>
+        <p>Design de sobrancelhas.</p>
+    </section>
+
+    <section id="equipe">
+        <h2>Equipe</h2>
+        <p>Conheça nossa equipe especializada.</p>
+        <div class="container">
+            <img src="img/salao.jpg" alt="salao" id="salao1">
+            <img src="img/salao2.jpg" alt="salao2" id="salao2">
+            <img src="img/salao3.jpg" alt="salao3" id="salao3">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="cEst">Estado:</label>
+            <select name="est" id="cEst">
+
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espiríto Santo</option>
+            </select>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </section>
+
+    <footer id="rodape">
+        <p>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="" id="logoinsta"></a>
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="https://twitter.com/?lang=pt" target="_blank"><img src="img/twitter.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=5511012341234" target="_blank"><img src="img/whatsapp.png"
+                    alt="" id="logowhats"></a>
+        </p>
+        <p>&copy; Somente para fins educativos.</p>
+    </footer>
+
+</body>
+
+</html>
